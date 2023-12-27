@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:leo_fm/components/play_button.dart';
 
 import '../models/show.dart';
 
@@ -62,14 +63,7 @@ class ShowTile extends StatelessWidget {
                 ),
               ],
             ),
-            IconButton(
-              onPressed: () {},
-              icon: Icon(
-                Icons.play_circle_fill_rounded,
-                size: 64,
-                color: Colors.black,
-              ),
-            )
+            PlayButton()
           ],
         ),
       ),
